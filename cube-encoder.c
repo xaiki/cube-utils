@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
     char cubepro_key[] = "221BBakerMycroft";
     char cubex_key[] = "kWd$qG*25Xmgf-Sg";
     char *userkey = cubepro_key;
-    char *extension = ".cubepro";
+    char *extension = ".cube3";
     BLOWFISH_KEY key;
     char *infilename, *outfilename;
     int i;

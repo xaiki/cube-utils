@@ -31,7 +31,7 @@ cubex-encoder: cubepro-encoder
 cube-decoder: cube-decoder.o blowfish.o
 	$(CC) $^ -Wall $(LIBS) -o $@
 
-%.resultpro: %.bfb cubepro-encoder
+%.resultpro: %.bfb cube3-encoder
 	./cubepro-encoder $< $(patsubst %.bfb, %.resultpro, $<)
 	diff $(patsubst %.bfb, %.cubepro, $<) $(patsubst %.bfb, %.resultpro, $<)
 
