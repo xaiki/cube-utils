@@ -1,3 +1,12 @@
+## Cube 3 encoder for .bfb files
+This is a fork of the great cubepro/cubex encoder at https://github.com/fritzw/cube-utils
+
+I've added a version of the encoder called cube3-encoder.exe which outputs a .cube3 file.  
+
+* Download from the [releases page](https://github.com/Mythandar/cube-utils/releases)
+* Instructions for useage are the same as for the cubepro.  Below is the instructions from the original project, just use out cube3-encoder.exe where it asks for cubepro-encoder.exe
+
+
 # A faster open-source alternative to CodeX
 
 The [original CodeX tool](https://groups.google.com/forum/#!topic/kisslicer-refugee-camp/ZMuIrtn5Mfo)
@@ -13,7 +22,7 @@ The cube-encoder in this project is a faster alternative to CodeX, written in pl
 
 ## Installation
 
-* **Windows:** Just download the `.exe` file you need from the [releases page](https://github.com/fritzw/cube-utils/releases) and place them where you like.
+* **Windows:** Just download the `.exe` file you need from the [releases page](https://github.com/Mythandar/cube-utils/releases) and place them where you like.
 * **Linux/Mac:** Clone the repository and run `make` to build. You need to install the build tools for your operating system first (e.g. `sudo apt-get install build-essential` on Ubuntu).
 ```
 git clone 'https://github.com/fritzw/cube-utils.git'
