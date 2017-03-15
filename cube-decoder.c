@@ -85,10 +85,6 @@ int main(int argc, char **argv) {
 
     // Remove padding
     BYTE pad = data[infilesize - 1];
-    if (pad > 8) {
-        printf("Decoding error: Invalid padding. Make sure that this is a valid encoded file.\n");
-        //return 8;
-    }
     outfilesize = infilesize - pad;
 
     // Save data to output file
